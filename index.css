@@ -1,0 +1,222 @@
+*{
+    font-family: "Poppins", serif;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head img {
+    margin-left: 9%;
+}
+
+.head ul {
+    display: flex;
+}
+
+.head ul li{
+    padding-left: 90px;
+    font-size: 18px;
+}
+
+.head ul li a:hover{
+    color: rgb(3, 133, 57);
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.head form {
+    margin-left: 9%;
+    height: 37px;
+    width: 15%;
+    border: 0.01px solid rgb(216, 213, 213);
+    border-radius: 5px;
+    display: flex;
+}
+
+.head input{
+    height: 35px;
+    width: 83%;
+    padding-left: 5%;
+    border: none;
+}
+
+.head input:hover {
+    border: none;
+}
+
+.head form img {
+    height: 60%;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    cursor: pointer;
+}
+
+.head .liked {
+    height: 1%;
+    width: 1%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.head .header-cart {
+    height: 1%;
+    width: 1%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.banner {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner .images{
+    position: relative;
+    margin-top: -1%;
+    left: 5%;
+    height: 500px;
+}
+
+.banner .images img{
+    height: 475px;
+}
+
+.banner .text {
+    position: relative;
+}
+
+.banner .hot {
+    color: rgb(100, 96, 96);
+    font-size: 25px;
+}
+
+.banner .Fashion {
+    color: black;
+    font-size: 50px;
+}
+
+.banner .great {
+    color: rgb(48, 128, 48);
+    font-weight: 700;
+}
+
+.banner .discount {
+    font-size: 25px;
+}
+
+.banner form {
+    height: 40px;
+}
+
+.banner input {
+    height: 40px;
+    width: 110px;
+    background-color: rgb(48, 128, 48);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.categories {
+    position: relative;
+    margin-left: 9.25%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.categories .scroller{
+    display: flex;
+}
+.categories .scroller form{
+    position: relative;
+    top: 25%;
+    left: 80%;
+    border: none;
+}
+
+.categories .scroller input{
+    position: relative;
+    top: 25%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color:rgb(152, 207, 152) ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.categories .highlight {
+    color: rgb(48, 128, 48);
+}
+
+.categories .containers{
+    position: relative;
+    left: -1.75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.categories .containers p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.categories .containers img{
+    height: 230px;
+    border-radius: 25px;
+}
+
+.categories .containers .container1{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.categories .containers .container2{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.categories .containers .container3{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.categories .containers .container4{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.categories .containers .container5{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.categories .containers .container6{
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+}

@@ -220,3 +220,261 @@
     height: 300px;
     border-radius: 25px;
 }
+
+.featured {
+    margin-top: 4%;
+}
+
+.featured input {
+    height: 40px;
+    width: 110px;
+    background-color: rgb(211, 208, 208);
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.featured input:hover {
+    background-color: rgb(228, 199, 147);
+    font-weight: bold;
+    color: rgb(48, 128, 48);
+    cursor: pointer;
+}
+
+.hotcollect {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 3%;
+}
+
+.hotcollect .container1 {
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container1:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect img {
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.hotcollect p {
+    margin-left: 3%;
+}
+
+.hotcollect .grey1{
+    font-size: 17px;
+    color: rgb(150, 143, 143);
+    font-weight: lighter;
+}
+
+.hotcollect .grey {
+    position: relative;
+    top: -360px;
+    font-size: 17px;
+    color: rgb(150, 143, 143);
+    font-weight: lighter;
+}
+
+.hotcollect .name{
+    position: relative;
+    top: -360px;
+}
+
+.hotcollect .topimg {
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.hotcollect .container2 {
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container2:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg2 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg2:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container3 {
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container3:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg3 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg3:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container4 {
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container4:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg4 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg4:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container5 {
+    margin-top: 7%;
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container5:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg5 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg5:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container6 {
+    margin-top: 7%;
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container6:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg6 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg6:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container7 {
+    margin-top: 7%;
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container7:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg7 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg7:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.hotcollect .container8 {
+    margin-top: 7%;
+    position: relative;
+    border: 0.01px solid rgb(216, 213, 213);
+    height: 600px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hotcollect .container8:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.hotcollect .topimg8 {
+    position: relative;
+    top: -360px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg8:hover{
+    cursor: pointer;
+    opacity: 1;
+}

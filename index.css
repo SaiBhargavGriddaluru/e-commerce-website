@@ -570,3 +570,27 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+.social {
+    margin-left: 9%;
+}
+
+.social img{
+    height: 25px;
+}
+
+.credits {
+    margin-left: 9%;
+    margin-right: 4%;
+}
+
+.credits span{
+    font-size: 14px;
+    color: rgb(172, 171, 171);
+}
+
+.credits .end{
+    display: inline;
+    position: relative;
+    left: 73%;
+}

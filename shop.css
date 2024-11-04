@@ -72,3 +72,145 @@
     margin: 0;
     cursor: pointer;
 }
+
+.small {
+    padding-left: 9%;
+    background-color: rgb(240, 240, 240);
+    color: rgb(78, 77, 77);
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items {
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.items .grey{
+    color: rgb(90, 89, 89);
+}
+
+.items .colour{
+    color: rgb(48, 128, 48);
+    font-weight: bold;
+}
+
+.containers {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.containers img {
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.containers .container1{
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 700px;
+    border-radius: 25px;
+}
+
+.containers .topimg{
+    position: relative;
+    left: -350px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.containers .topimg:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.mail {
+    padding-left: 9%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 2% 25% 26% 36%;
+    background-color: rgb(138, 182, 138) ;
+    align-items: center;
+}
+
+.mail img {
+    height: 25px;  
+}
+
+.mail form{
+    height: 32px;
+}
+
+.mail .text {
+    padding: 0 20px;
+    margin-left: 2%;
+    height: 42px;
+    width: 60%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.mail .Subscribe {
+    height: 42px;
+    border: none;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: -4px;
+    background-color: black;
+    color: white;
+}
+
+.address-bar{
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    margin-top: 3%;
+}
+
+.address-bar .logo-address img {
+    height: 135px;
+}
+
+.address-bar ul{
+    margin-top: 10px;
+}
+
+.address-bar ul li {
+    height: 35px;
+}
+
+.address-bar ul p{
+    margin-bottom: 25px;
+}
+
+.address-bar .Capital {
+    font-weight: bold;
+    font-size: large;
+}
+
+.address-bar p {
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.address-bar .bold {
+    font-weight: bold;
+}
+
+.address-bar a {
+    text-decoration: none;
+    color: black;
+}

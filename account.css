@@ -1,0 +1,242 @@
+*{
+    font-family: "Poppins", serif;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head img {
+    margin-left: 9%;
+}
+
+.head ul {
+    display: flex;
+}
+
+.head ul li{
+    padding-left: 90px;
+    font-size: 18px;
+}
+
+.head ul li a:hover{
+    color: rgb(3, 133, 57);
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.head form {
+    margin-left: 9%;
+    height: 37px;
+    width: 15%;
+    border: 0.01px solid rgb(216, 213, 213);
+    border-radius: 5px;
+    display: flex;
+}
+
+.head input{
+    height: 35px;
+    width: 83%;
+    padding-left: 5%;
+    border: none;
+}
+
+.head input:hover {
+    border: none;
+}
+
+.head form img {
+    height: 60%;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    cursor: pointer;
+}
+
+.head .liked {
+    height: 1%;
+    width: 1%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.head .header-cart {
+    height: 1%;
+    width: 1%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.small {
+    padding-left: 9%;
+    background-color: rgb(240, 240, 240);
+    color: rgb(78, 77, 77);
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main{
+    margin-top: 5%;
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: 35% 47%;
+}
+
+.main table {
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+}
+.main table td{
+    border: 0.01px solid rgb(216, 213, 213) ;
+    height: 45px;
+    margin: 0px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.main table i {
+    padding-right: 10px;
+}
+
+.main table .colour{
+    background-color: rgb(48, 128, 48) ;
+    color: white;
+}
+
+.content{
+    margin-top: 20px;
+    height: 125px;
+    border: 1px solid  rgb(240, 240, 240);
+}
+
+.content .name {
+    background-color: rgb(240, 240, 240);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.content .exp {
+    color: rgb(110, 106, 106);
+    padding-left: 30px;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.mail {
+    padding-left: 9%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 2% 25% 26% 36%;
+    background-color: rgb(138, 182, 138) ;
+    align-items: center;
+}
+
+.mail img {
+    height: 25px;  
+}
+
+.mail form{
+    height: 32px;
+}
+
+.mail .text {
+    padding: 0 20px;
+    margin-left: 2%;
+    height: 42px;
+    width: 60%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.mail .Subscribe {
+    height: 42px;
+    border: none;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: -4px;
+    background-color: black;
+    color: white;
+}
+
+.address-bar{
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    margin-top: 3%;
+}
+
+.address-bar .logo-address img {
+    height: 135px;
+}
+
+.address-bar ul{
+    margin-top: 10px;
+}
+
+.address-bar ul li {
+    height: 35px;
+}
+
+.address-bar ul p{
+    margin-bottom: 25px;
+}
+
+.address-bar .Capital {
+    font-weight: bold;
+    font-size: large;
+}
+
+.address-bar p {
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.address-bar .bold {
+    font-weight: bold;
+}
+
+.address-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    margin-left: 9%;
+}
+
+.social img{
+    height: 25px;
+}
+
+.credits {
+    margin-left: 9%;
+    margin-right: 4%;
+}
+
+.credits span{
+    font-size: 14px;
+    color: rgb(172, 171, 171);
+}
+
+.credits .end{
+    display: inline;
+    position: relative;
+    left: 73%;
+}

@@ -125,6 +125,13 @@
     color: white;
     cursor: pointer;
     border: none;
+    transition: all 0.4s ease;
+}
+
+.banner input:hover {
+    background-color: white;
+    color: rgb(48, 128, 48);
+    border: 1px solid rgb(48, 128, 48);
 }
 
 .categories {
@@ -477,4 +484,89 @@
 .hotcollect .topimg8:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.mail {
+    padding-left: 9%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 2% 25% 26% 36%;
+    background-color: rgb(138, 182, 138) ;
+    align-items: center;
+}
+
+.mail img {
+    height: 25px;  
+}
+
+.mail form{
+    height: 32px;
+}
+
+.mail .text {
+    padding: 0 20px;
+    margin-left: 2%;
+    height: 42px;
+    width: 60%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.mail .Subscribe {
+    height: 42px;
+    border: none;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: -4px;
+    background-color: black;
+    color: white;
+}
+
+.address-bar{
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    margin-top: 3%;
+}
+
+.address-bar .logo-address img {
+    height: 135px;
+}
+
+.address-bar ul{
+    margin-top: 10px;
+}
+
+.address-bar ul li {
+    height: 35px;
+}
+
+.address-bar ul p{
+    margin-bottom: 25px;
+}
+
+.address-bar .Capital {
+    font-weight: bold;
+    font-size: large;
+}
+
+.address-bar p {
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.address-bar .bold {
+    font-weight: bold;
+}
+
+.address-bar a {
+    text-decoration: none;
+    color: black;
 }

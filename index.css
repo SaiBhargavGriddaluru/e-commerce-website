@@ -137,7 +137,7 @@
 
 .categories {
     position: relative;
-    margin-left: 6.25%;
+    margin-left: 5.25%;
     font-size: 22px;
     font-weight: bold;
 }
@@ -169,7 +169,7 @@
 
 .categories .containers{
     position: relative;
-    left: -2.5%;
+    left: -2%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -249,23 +249,15 @@
     cursor: pointer;
 }
 
+.hot {
+    margin-left: 5%;
+}
+
 .hotcollect {
+    margin-top: 3%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-top: 3%;
-}
-
-.hotcollect .container1 {
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.hotcollect .container1:hover {
-    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+    row-gap: 30px;
 }
 
 .hotcollect img {
@@ -274,218 +266,636 @@
     border-radius: 25px;
 }
 
+.hotcollect .container1{
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .text {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: -700px;
+    top: 350px;
+}
+
 .hotcollect p {
-    margin-left: 3%;
+    margin-left: 2%;
+    padding-top: 3%;
+    width: 350px;
 }
 
-.hotcollect .grey1{
-    font-size: 17px;
+.hotcollect .grey{
     color: rgb(150, 143, 143);
-    font-weight: lighter;
-}
-
-.hotcollect .grey {
-    position: relative;
-    top: -360px;
     font-size: 17px;
+}
+
+.hotcollect .bold {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.hotcollect .rating {
+    margin-left: 2%;
+    color: gold;
+}
+
+.hotcollect .price{
+    margin-top: 10%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 83% 20%;
+}
+
+.hotcollect .discount {
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(48, 128, 48);
+}
+
+.price .original {
+    margin-left: 15px;
+    font-size: 15px;
     color: rgb(150, 143, 143);
-    font-weight: lighter;
 }
 
-.hotcollect .name{
+.price .tags {
+    display: flex;
+    align-items: center;
+}
+
+.price .cart {
     position: relative;
-    top: -360px;
+    top: -40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 25px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(152, 207, 152) ;
 }
 
-.hotcollect .topimg {
-    position: absolute;
-    left: 10px;
+.price .cart:hover {
+    cursor: pointer;
+    border: 0.01px solid rgb(152, 207, 152);
+    color: rgb(179, 221, 179);
+    background-color: white;
+}
+
+
+
+.hotcollect .topimg{
+    position: relative;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg:hover{
+.hotcollect .topimg:hover {
     cursor: pointer;
     opacity: 1;
 }
+
+.hotcollect .container1:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
 .hotcollect .container2 {
-    position: relative;
+    display: flex;
     border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
+    padding: 15px;
     width: 350px;
-    padding: 10px;
+    height: 600px;
     border-radius: 25px;
+}
+
+.hotcollect .topimg2{
+    position: relative;
+    left: -350px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.hotcollect .topimg2:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .hotcollect .container2:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg2 {
+.hotcollect .container3 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg3{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg2:hover{
+.hotcollect .topimg3:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container3 {
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container3:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg3 {
+.hotcollect .container4 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg4{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg3:hover{
+.hotcollect .topimg4:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container4 {
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container4:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg4 {
+.hotcollect .container5 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg5{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg4:hover{
+.hotcollect .topimg5:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container5 {
-    margin-top: 7%;
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container5:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg5 {
+.hotcollect .container6 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg6{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg5:hover{
+.hotcollect .topimg6:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container6 {
-    margin-top: 7%;
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container6:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg6 {
+.hotcollect .container7 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg7{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg6:hover{
+.hotcollect .topimg7:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container7 {
-    margin-top: 7%;
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container7:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg7 {
+.hotcollect .container8 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.hotcollect .topimg8{
     position: relative;
-    top: -360px;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg7:hover{
+.hotcollect .topimg8:hover {
     cursor: pointer;
     opacity: 1;
-}
-
-.hotcollect .container8 {
-    margin-top: 7%;
-    position: relative;
-    border: 0.01px solid rgb(216, 213, 213);
-    height: 600px;
-    width: 350px;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 .hotcollect .container8:hover {
     box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
 }
 
-.hotcollect .topimg8 {
+.deals {
+    height: 553px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.deals .day {
+    height: 553px;
+    width: 100%;
+}
+
+.deals .day img {
+    height: 553px;
+    width: 92%;
+}
+
+.deals .women {
+    height: 553px;
+    width: 845px;
+}
+
+.women img {
+    height: 553px;
+    width: 830px;
+}
+
+.textimg {
     position: relative;
-    top: -360px;
+    top: -553px;
+    margin-left: 5%;
+}
+
+.deals .colour {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(48, 128, 48);
+    margin-bottom: 25px;
+}
+
+.deals .caption {
+    color: rgb(110, 106, 106);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.deals .summer {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.deals .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.deals .discount {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(214, 36, 66);
+}
+
+.deals .hurry {
+    margin-bottom: 0px;
+}
+
+.deals .clock {
+    margin-top: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.deals .clock p {
+    height: 55px;
+    width: 55px;
+    color: white;
+    background-color:rgb(48, 128, 48) ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.deals .clock .days{
+    margin-left: 0px;
+}
+
+.deals .time {
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+    position: relative;
+    left: -37px;
+}
+
+.deals .time p {
+    font-size: 12px;
+}
+
+.deals .time .m4 {
+    position: relative;
+    right: -2%;
+}
+
+.deals input {
+    margin-top: 25px;
+    height: 40px;
+    width: 95px;
+    border-radius: 5px;
+    background: none;
+    color:rgb(48, 128, 48) ;
+    border: 0.01px solid rgb(48, 128, 48);
+    transition: all 0.3s ease;
+}
+
+.deals input:hover {
+    background-color: rgb(48, 128, 48);
+    color: white;
+    cursor: pointer;
+}
+
+.new {
+    margin-top: 4%;
+}
+
+.new .arrival {
+    display: flex;
+    align-items: center;
+}
+
+.new .arrival p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.new .arrival .colored {
+    color: rgb(48, 128, 48);
+}
+
+.new .arrival .form {
+    position: relative;
+    left: 85%;
+    border: none;
+}
+
+.new .arrival input{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color:rgb(152, 207, 152) ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.best {
+    margin-left: 5%;
+}
+
+.clothes {
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+}
+
+.clothes img {
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.clothes .container1{
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.clothes .text {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: -700px;
+    top: 350px;
+}
+
+.clothes p {
+    margin-left: 2%;
+    padding-top: 3%;
+    width: 350px;
+}
+
+.clothes .grey{
+    color: rgb(150, 143, 143);
+    font-size: 17px;
+}
+
+.clothes .bold {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.clothes .rating {
+    margin-left: 2%;
+    color: gold;
+}
+
+.clothes .price{
+    margin-top: 10%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 83% 20%;
+}
+
+.clothes .discount {
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(48, 128, 48);
+}
+
+.price .original {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(150, 143, 143);
+}
+
+.price .tags {
+    display: flex;
+    align-items: center;
+}
+
+.price .cart {
+    position: relative;
+    top: -40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 25px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(152, 207, 152) ;
+}
+
+.price .cart:hover {
+    cursor: pointer;
+    border: 0.01px solid rgb(152, 207, 152);
+    color: rgb(179, 221, 179);
+    background-color: white;
+}
+
+
+
+.clothes .topimg{
+    position: relative;
+    left: -350px;
     opacity: 0;
     transition: all 0.7s ease;
 }
 
-.hotcollect .topimg8:hover{
+.clothes .topimg:hover {
     cursor: pointer;
     opacity: 1;
 }
+
+.clothes .container1:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.clothes .container2 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.clothes .topimg2{
+    position: relative;
+    left: -350px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.clothes .topimg2:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.clothes .container2:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.clothes .container3 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.clothes .topimg3{
+    position: relative;
+    left: -350px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.clothes .topimg3:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.clothes .container3:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
+.clothes .container4 {
+    display: flex;
+    border: 0.01px solid rgb(216, 213, 213);
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.clothes .topimg4{
+    position: relative;
+    left: -350px;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.clothes .topimg4:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.clothes .container4:hover {
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .2);;
+}
+
 
 footer {
     margin-top: 5%;

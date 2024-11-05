@@ -10,7 +10,7 @@
 }
 
 .head img {
-    margin-left: 9%;
+    margin-left: 5%;
 }
 
 .head ul {
@@ -74,7 +74,7 @@
 }
 
 .small {
-    padding-left: 9%;
+    padding-left: 6%;
     background-color: rgb(240, 240, 240);
     color: rgb(78, 77, 77);
     height: 70px;
@@ -85,9 +85,9 @@
 
 .main{
     margin-top: 5%;
-    margin-left: 9%;
+    margin-left: 6%;
     display: grid;
-    grid-template-columns: 35% 47%;
+    grid-template-columns: 40% 53%;
 }
 
 .main table {

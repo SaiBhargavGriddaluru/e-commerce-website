@@ -10,7 +10,7 @@
 }
 
 .head img {
-    margin-left: 9%;
+    margin-left: 5%;
 }
 
 .head ul {
@@ -82,7 +82,7 @@
 .banner .images{
     position: relative;
     margin-top: -1%;
-    left: 5%;
+    left: 3%;
     height: 500px;
 }
 
@@ -92,6 +92,7 @@
 
 .banner .text {
     position: relative;
+    left: -3%;
 }
 
 .banner .hot {
@@ -136,7 +137,7 @@
 
 .categories {
     position: relative;
-    margin-left: 9.25%;
+    margin-left: 6.25%;
     font-size: 22px;
     font-weight: bold;
 }
@@ -168,7 +169,7 @@
 
 .categories .containers{
     position: relative;
-    left: -1.75%;
+    left: -2.5%;
     display: flex;
     justify-content: space-evenly;
 }
